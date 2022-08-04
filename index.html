@@ -3,9 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/K2D"
     </head>
 
     <body>
-        <script src="./javascript.js"></script>
+        <div class="header">
+            <h1 class="title">ROCK, PAPER, SCISSORS</h1>
+            <h2 class="title2">TO THE DEATH!</h2>
+            <h3 class="title3">WHO WILL WIN???</h3>
+            <h4>Player Choice: <span id="playerPick"></span></h4>
+            <h4>Computer Choice: <span id="computerPick"></span></h4>
+        </div>
+
+        <div class="button-container">
+            <button id="rock">ROCK</button>
+            <button id="paper">PAPER</button>
+            <button id="scissor">SCISSOR</button>
+        </div>
+
+        <div id="result-container">
+            <h2 id="score-count">Score Count</h2>
+            <h2>Your Score: <span id="playerScore"> 0</span> Computer Score: <span id="computerScore">0</span></h2>
+            <h2>Keep Going!</h2>
+        </div>
+
+        <div id="result-btn-container">
+          <button id="reset-btn">RESET GAME!</button>
+        </div>
+
     </body>
+
+    <script src="./index.js"></script>
 </html>
