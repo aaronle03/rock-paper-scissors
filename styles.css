@@ -1,0 +1,74 @@
+body {
+  background-image: url(./img/background-gradient.jpg);
+  height: 500px;
+}
+
+.title {
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+.title2 {
+  font-size: 50px;
+  animation: fadeIn, 5s;
+}
+
+.header {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#choice {
+  font-size: 30px;
+}
+
+#playerPick, #computerPick {
+  text-decoration: underline;
+  font-weight: 1000;
+  color: blue;
+}
+
+
+.button-container {
+  display:flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+#rock, #paper, #scissor {
+  background-color: transparent;
+  border: 0px;
+}
+
+#result-container {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  font-size: 20px;
+}
+
+#result-btn-container {
+  display:flex;
+  justify-content: center;
+}
+
+button {
+  font-family:sans-serif;
+  font-size: 30px;
+}
+
+#result-btn-container {
+  display:flex;
+  height:200px;
+  align-items: center;
+}
+
+#reset-btn {
+  display:flex;
+  align-items: center;
+  background-color: transparent;
+  font-size: 50px;
+  height:80px;
+}
